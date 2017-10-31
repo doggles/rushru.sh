@@ -8,6 +8,7 @@ html {
 	width: 100%;
 	background: url('bg_road.gif') no-repeat;
 	background-size: 100% 100%;
+	overflow: hidden;
 }
 
 body {
