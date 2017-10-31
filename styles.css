@@ -1,7 +1,6 @@
 * {
 	user-select: none;
 	-webkit-user-select: none;
-	overflow: hidden;
 }
 
 html {
@@ -15,7 +14,6 @@ html {
 
 body {
 	font-family: 'Permanent Marker';
-	overflow: hidden;
 }
 
 a {
@@ -34,7 +32,6 @@ a {
   -webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	overflow: hidden;
 }
 
 .glitch {
