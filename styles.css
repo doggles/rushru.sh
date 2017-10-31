@@ -1,6 +1,7 @@
 * {
 	user-select: none;
 	-webkit-user-select: none;
+	overflow: hidden;
 }
 
 html {
@@ -9,6 +10,7 @@ html {
 	background: url('bg_road.gif') no-repeat;
 	background-size: 100% 100%;
 	overflow: hidden;
+	position: fixed;
 }
 
 body {
@@ -31,7 +33,8 @@ a {
   align-items: center;
   -webkit-box-pack: center;
 	-ms-flex-pack: center;
-  justify-content: center;
+	justify-content: center;
+	overflow: hidden;
 }
 
 .glitch {
