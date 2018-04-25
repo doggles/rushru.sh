@@ -6,7 +6,7 @@ body {
 	background: url('bg_road.gif') no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	background-color: rgba(40, 252, 210, .6);
+	background-color: rgba(255, 154, 140, .9);
 	background-blend-mode: exclusion;
 	overflow: hidden;
 	position: fixed;
