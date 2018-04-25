@@ -16,6 +16,7 @@ body {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-webkit-overflow-scrolling: touch;
+	filter: blur(1px) brightness(115%) saturate(122%) hue-rotate(1deg);
 }
 
 body {
