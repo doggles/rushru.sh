@@ -6,13 +6,15 @@ body {
 	background: url('bg_road.gif') no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
+	background-color: rgba(40, 252, 210, .6);
+	background-blend-mode: exclusion;
 	overflow: hidden;
 	position: fixed;
 	user-select: none;
 	-khtml-user-select: none;
-  -o-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -26,39 +28,40 @@ a {
 	overflow: hidden;
 	user-select;
 	-khtml-user-select: none;
-  -o-user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
 }
 
 .wrap {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+ 	display: flex;
+ 	-webkit-box-align: center;
+ 	-ms-flex-align: center;
+ 	align-items: center;
+ 	-webkit-box-pack: center;
+ 	-ms-flex-pack: center;
+ 	justify-content: center;
 	overflow: hidden;
 }
 
 .glitch {
 	overflow: hidden;
-  font-family: 'VT323', sans-serif;
-  font-weight: 400;
-	color: #fff;
+ 	font-family: 'VT323', sans-serif;
+	font-weight: 400;
+	color: white;
 	font-size: 10vmax;
 	position: relative;
 	margin-top: -25%;
-  text-shadow: 0px -5px 10px white, 0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0), 0px 0px 15px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0);
-  -webkit-animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate, blur 8s ease-in-out infinite alternate;
-          animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate, blur 8s ease-in-out infinite alternate;
-  -webkit-transform: skewX(0deg);
-  transform: skewX(0deg);
+	text-shadow: 0px -5px 10px white, 0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0), 0px 0px 15px rgba(255, 255, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0);
+	-webkit-animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate, blur 8s ease-in-out infinite alternate;
+	animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate, blur 8s ease-in-out infinite alternate;
+	-webkit-transform: skewX(0deg);
+	transform: skewX(0deg);
 }
+
 @-webkit-keyframes blur {
   0%,40%, 50%, 60%, 90%, 95%, 100% {
     text-shadow: 0px -5px 10px white, 0px 0px 5px rgba(255, 255, 255, 0), 0px 0px 10px rgba(255, 255, 255, 0), 2px 1px 15px rgba(100, 240, 255, 0), 0px 0px 20px rgba(255, 255, 255, 0);
@@ -92,7 +95,7 @@ a {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   -webkit-animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
-          animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
+  animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
   -webkit-transform: skewX(0deg);
   transform: skewX(0deg);
   z-index: -2;
@@ -110,7 +113,7 @@ a {
   overflow: hidden;
   clip: rect(0, 900px, 0, 0);
   -webkit-animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
-          animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
+  animation: noise-anim-2 3s infinite linear alternate-reverse, shift 4s ease-in-out infinite alternate;
   -webkit-transform: skewX(0deg);
   transform: skewX(0deg);
   z-index: -1;
